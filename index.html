@@ -1,8 +1,23 @@
-<html>
+<html lang="en">
+
     <title>portfolio</title>
-    <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Safaa Taweel</title>
+    <link rel="stylesheet" href="style.css">
+     <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Homenaje&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Homenaje&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+         <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
     <div class="navbar">
         <a href="#about">About</a>
         <a href="#education">Education</a>
@@ -11,7 +26,7 @@
         <a href="#contact">Contact</a>
     </div>
     <div class="header">
-        <img src="me.jpeg" alt="me" width="200" height="250">
+        <img src="me.jpeg" alt="me" width="200" height="200">
         <h1>Safaa Taweel</h1>
         <h2>Computer Engineering</h2>
         <h3>Birzet University </h3>
@@ -25,38 +40,40 @@
     </section>
     <section id="education">
         <h2>Education</h2>
-        <p><strong>Birzeit University</strong> — BSc in Computer Systems Engineering (2021–2025)</p>
+        <p><strong>Birzeit University</strong> — BSc in Computer Systems Engineering (2020–2025)</p>
         <p>Relevant Courses: Data Structures, Algorithms, Databases, Web Development, Software Engineering</p>
     </section>
     
     <section id="skills">
         <h2>Skills</h2>
         <ul>
-            <li>Node.js</li>
-            <li>PostgreSQL</li>
-            <li>Python</li>
-            <li>SQL</li>
-            <li>Express.js</li>
-            <li>Data Analysis (Pandas, NumPy)</li>
-            <li>REST APIs</li>
-            <li>Version Control (Git, GitHub)</li>
+            <li><i class="fab fa-node-js"></i> Node.js</li>
+            <li><i class="fas fa-database"></i> PostgreSQL</li>
+            <li><i class="fab fa-python"></i> Python</li>
+            <li><i class="fas fa-code"></i> SQL</li>
+            <li><i class="fab fa-js"></i> Express.js</li>
+            <li><i class="fas fa-chart-bar"></i> Data Analysis (Pandas, NumPy)</li>
+            <li><i class="fas fa-network-wired"></i> REST APIs</li>
+            <li><i class="fab fa-git-alt"></i> Version Control (Git, GitHub)</li>
         </ul>
     </section>
+    
     <section id="projects">
         <h2>Projects</h2>
-        <ul>
-            <li>
+        <div class="projects-container">
+            <div class="project-card">
                 <h3>Vehicle Maintenance App</h3>
                 <p>A web app for vehicle owners to book maintenance services and track their vehicles’ health. Built using Node.js and PostgreSQL.</p>
                 <a href="https://github.com/yourgithubrepo" target="_blank">View Project</a>
-            </li>
-            <li>
+            </div>
+            <div class="project-card">
                 <h3>Real-time Collaboration Tool</h3>
                 <p>A tool for users to collaborate on documents in real time, built with React, Redux, and Strapi.</p>
                 <a href="https://github.com/yourgithubrepo" target="_blank">View Project</a>
-            </li>
-        </ul>
+            </div>
+        </div>
     </section>
+    
     <section id="contact">
         <h2>Contact</h2>
         <p>Email: <a href="mailto:safaa.taweel1223@gmail.com">safaa.taweel1223@gmail.com</a></p>
@@ -70,7 +87,7 @@
 
 
 
-
+</body>
 
 
 </html>
